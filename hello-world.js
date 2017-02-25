@@ -1,10 +1,12 @@
+Var React = require('react');
+
 var HelloWorld = React.createClass({
   render: function () {
-    return React.createElement('h1', null, "Hello World from Learning ReactJS");
+    return <h1>Hello World from Learning ReactJS</h1>;
   }
 });
 
-ReactDOM.render(
-  React.createlement(HelloWorld, null).
+React.render(
+  <HelloWorld />;
   document.getElementById('root')
 );
