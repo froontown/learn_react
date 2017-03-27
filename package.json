@@ -1,0 +1,13 @@
+{
+  "name": "learn-react",
+  "version": "1.0.0",
+  "description": "I'm trying to install react",
+  "main": "index.js",
+  "repository": "https://github.com/froontown/learn_react.git",
+  "author": "froontown",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  }
+}
