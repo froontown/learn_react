@@ -6,7 +6,7 @@ var HelloWorld = React.createClass({
   }
 });
 
-React.render(
+ReactDOM.render(
   React.createElement(HelloWorld, null),
   document.getElementById('root')
 );
